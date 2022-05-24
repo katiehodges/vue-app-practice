@@ -2,7 +2,9 @@ const app = Vue.createApp({
     data() {
         return {
             product: 'Socks',
-            description: 'These socks are comfy.'
+            image: './assets/images/socks_blue.jpg',
+            inventory: 100,
+            onSale: true
         }
     }
 })
